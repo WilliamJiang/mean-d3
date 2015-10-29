@@ -1,32 +1,34 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-9 col-md-offset-3">
-      <h1>Angular D3</h1>
-      <p class="lead">A set of basic directives that support declarative charts and graphs powered by D3</p>
-      <p> <a href="https://github.com/wealthbar/angular-d3">Get the source on Github</a> </p>
+<div data-spy="scroll" data-target="#side-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+                <h1>Angular D3</h1>
+
+                <p class="lead">A set of basic directives that support declarative charts and graphs powered by D3</p>
+
+                <p><a href="https://github.com/wealthbar/angular-d3">Get the source on Github</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div id="side-nav" data-spy="affix" data-offset-top="160">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li>
+                            <a href="#graphs" target="_self">Basic Graphs</a>
+                        </li>
+                        <li>
+                            <a href="#stacked" target="_self">Stacked Area</a>
+                        </li>
+                        <li>
+                            <a href="#pie-charts" target="_self">Pie Charts</a>
+                        </li>
+                        <li>
+                            <a href="#arc-charts" target="_self">Arc Charts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9" ng-include="'d3/views/main.html'"></div>
+        </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-      <div id="side-nav"  data-spy="affix" data-offset-top="160">
-        <ul class="nav nav-pills nav-stacked">
-          <li>
-            <a href="#graphs" target="_self">Basic Graphs</a>
-          </li>
-          <li>
-            <a href="#stacked" target="_self">Stacked Area</a>
-          </li>
-          <li>
-            <a href="#pie-charts" target="_self">Pie Charts</a>
-          </li>
-          <li>
-            <a href="#arc-charts" target="_self">Arc Charts</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-9" ng-include="'d3/views/main.html'"></div>
-  </div>
-  <footer class="row">
-  </footer>
 </div>

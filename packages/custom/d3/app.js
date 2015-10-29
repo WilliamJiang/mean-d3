@@ -18,16 +18,17 @@ D3.register(function(app, auth, database) {
 
   //We are adding a link to the main menu for all authenticated users
   D3.menus.add({
-    title: 'D3js',
+    title: 'MeanStack-D3-demo',
     link: 'd3-page',
     roles: ['authenticated'],
     menu: 'main'
   });
   
-  D3.aggregateAsset('css', 'd3.css');
+  D3.aggregateAsset('css', 'main.css');
+  D3.aggregateAsset('css', 'default.css');
 
-  D3.aggregateAsset('js', '../lib/d3/d3.min.js');
-  D3.aggregateAsset('js', '../lib/angularD3/angularD3.min.js');
+  D3.aggregateAsset('js', '../lib/d3/d3.js');
+  D3.aggregateAsset('js', '../lib/angularD3/angularD3.js');
 
   D3.angularDependencies(['ad3']);
 
