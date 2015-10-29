@@ -1,0 +1,64 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\000033}}
+body {
+  margin-top: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\000037}}
+section {
+  margin-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000311}}
+[d3-chart] {
+  height: 400px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000315}}
+footer {
+  min-height: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000319}}
+#side-nav.affix {
+  width: 100%;
+  top: 40px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000319}}
+  #side-nav.affix {
+    max-width: 758px;
+  }
+}
+@media (min-width: 992px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000319}}
+  #side-nav.affix {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000319}}
+  #side-nav.affix {
+    max-width: 1200px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000332}}
+#side-nav.affix ul {
+  width: 25%;
+  padding: 0 15px;
+  margin-left: -15px;
+  z-index: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/WebstormProjects\/trials\/angular-d3\/app\/styles\/main\.scss}line{font-family:\0000341}}
+#graphs .d3 .area {
+  fill: url(#gradient);
+}
+
+@-moz-document url-prefix() {
+  /* line 46, ../../app/styles/main.scss */
+  #graphs .d3 .area {
+    fill: url(/#gradient);
+  }
+}
