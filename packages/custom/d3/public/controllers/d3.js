@@ -3,6 +3,9 @@
 /* jshint -W098 */
 (function() {
   angular.module('mean.d3').controller('D3Controller', function($scope, $interval) {
+    $scope.$watch('', function() {
+      return $('body').scrollspy('refresh');
+    });
     $scope.arcs = {
       arc1: {
         value: 60,
